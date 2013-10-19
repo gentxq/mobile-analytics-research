@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">DemoHomeScreen</string>
+    <string name="no_data_yet">(no data yet)</string>
+    <string name="submit_download_button">Submit download event</string>
+    <string name="submit_download_button_content_description">Sends random result for currently selected URL</string>
 </resources>

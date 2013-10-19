@@ -4,10 +4,27 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     >
+    
 <TextView
+    android:id="@+id/textToDisplay"
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
-    android:text="Hello World, DemoHomeScreen"
+    android:text="@string/no_data_yet"
     />
+
+<ExpandableListView
+    android:id="@+id/setOfUrls"
+    android:layout_width="match_parent"
+    android:layout_height="203dp" >
+</ExpandableListView>
+
+<Button
+    android:id="@+id/generateDownloadEvent"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/submit_download_button" 
+    android:contentDescription="@string/submit_download_button_content_description"
+    />
+
 </LinearLayout>
 
