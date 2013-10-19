@@ -37,9 +37,9 @@ public class DemoHomeScreen extends Activity
 					textToDisplay.setText("Fail: " + URL + DUMMY_EXCEPTION);
 					
 				} else {
-					long durationInMs = new Random().nextInt(500);
-					long calculatedDuration = durationInMs + 123L;
-					eventGenerator.downloadCompletedOk(URL, 8192L, calculatedDuration);
+					int durationInMs = new Random().nextInt(500);
+					int calculatedDuration = durationInMs + 123;
+					eventGenerator.downloadCompletedOk(URL, 8193, calculatedDuration);
 					String text = String.format("Pass: %s %d %d", URL, 8192L, calculatedDuration);
 					textToDisplay.setText(text);
 				}
